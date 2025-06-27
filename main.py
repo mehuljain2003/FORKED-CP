@@ -47,7 +47,7 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-AUTH_USER = os.environ.get('AUTH_USERS', '6697397532').split(',')
+AUTH_USER = os.environ.get('AUTH_USERS', '5217094966').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
     AUTH_USERS.append(int(OWNER))
@@ -72,7 +72,7 @@ photozip = 'https://envs.sh/cD_.jpg'
 # Inline keyboard for start command
 BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/jattprab")]])
 keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"), InlineKeyboardButton(text="🛠️ Repo", url="https://github")],
+        [InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-"), InlineKeyboardButton(text="🛠️ Repo", url="https://github")],
 ])
 
 # Image URLs for the random image feature
