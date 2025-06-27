@@ -6,7 +6,7 @@ from os import environ
 API_ID = int(environ.get("API_ID", "29907731"))
 API_HASH = environ.get("API_HASH", "8f59d632cb374705cfdee46ac17cc3cd")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-OWNER = int(environ.get("OWNER", "5680454765"))
+OWNER = int(environ.get("OWNER", "5217094966"))
 CREDIT = "MJ BOTS"
 LOG_CHANNEL = "-1002774724686" # log group me bot ko admin narur banaye full rights ke sath
 #WEBHOOK = True  # Don't change this
